@@ -43,17 +43,21 @@ Sistema-de-Tickets/<br>
 │   └── index.html       # Interfaz de usuario e inyección de JS dinámico<br>
 │<br>
 └── README.md            # Documentación del proyecto
+```
 
-## Instrucciones de Ejecución<br>
-1. Clonar el repositorio<br>
-
+## Instrucciones de Ejecución
+1. Clonar el repositorio
+```
 git clone [https://github.com/TuUsuario/Sistema-de-Tickets.git](https://github.com/TuUsuario/Sistema-de-Tickets.git)
 cd Sistema-de-Tickets
+```
 
-2. Levantar el Backend<br>
+2. Levantar el Backend
 
+```
 cd Backend
 python3 -m uvicorn main:app --reload
+```
 
 El servidor estará disponible en: http://127.0.0.1:8000
 
@@ -62,8 +66,10 @@ Puedes probar la documentación interactiva en: http://127.0.0.1:8000/docs
 3. Levantar el Frontend<br>
 Abre el archivo Frontend/index.html utilizando la extensión Live Server en VS Code o levanta un servidor web local con Python:<br>
 
+```
 cd Frontend
 python3 -m http.server 3000
+```
 
 Accede desde tu navegador a: http://127.0.0.1:3000
 
