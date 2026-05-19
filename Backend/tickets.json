@@ -1,0 +1,9 @@
+[
+    {
+        "id": 1,
+        "titulo": "Error al ingresar la cantidad de un producto",
+        "descripcion": "El usuario quiere ingresar la cantidad de 50 como stock pero al momento de guardar le sale que es insuficiente.",
+        "prioridad": "Media",
+        "estado": "Pendiente"
+    }
+]

@@ -1,0 +1,61 @@
+body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f6f9;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            gap: 20px;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .formulario-seccion {
+            flex: 1;
+        }
+        .tickets-seccion {
+            flex: 2;
+        }
+        h2 { color: #333; margin-top: 0; }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label { display: block; margin-bottom: 5px; font-weight: bold; color: #555;}
+        input, textarea, select {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+            font-size: 16px;
+        }
+        button:hover { background-color: #0056b3; }
+        .ticket-card {
+            background: #fff;
+            border-left: 5px solid #007bff;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+        .ticket-card.Alta { border-left-color: #dc3545; }
+        .ticket-card.Media { border-left-color: #ffc107; }
+        .ticket-card.Baja { border-left-color: #28a745; }
+        .badge {
+            background: #eee;
+            padding: 3px 8px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: bold;
+        }
