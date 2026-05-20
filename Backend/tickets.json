@@ -5,5 +5,12 @@
         "descripcion": "El usuario quiere ingresar la cantidad de 50 como stock pero al momento de guardar le sale que es insuficiente.",
         "prioridad": "Media",
         "estado": "Pendiente"
+    },
+    {
+        "id": 1,
+        "titulo": "Fallo al pagar con tarjeta",
+        "descripcion": "El cliente reporta que al momento de pagar con su tarjeta bota un mensaje de error.",
+        "prioridad": "Alta",
+        "estado": "Pendiente"
     }
 ]
